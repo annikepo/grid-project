@@ -1,48 +1,51 @@
-# Roll & Ride
+# Fox Color Palette
 
-A responsive skateboard image gallery built with HTML and CSS Grid.
+A responsive CSS Grid project that recreates the provided Figma Color Palette layout.
 
 ## About
 
-Roll & Ride is a visual website about skateboards and street culture. It presents a collection of skateboard decks, skatepark sessions, wheels, trucks, and skate shoes in a responsive CSS Grid layout.
+This project recreates the required Figma color-palette layout using CSS Grid.
+
+The layout contains eleven grid items with different sizes and positions. Five areas use fox photographs, while the remaining areas use solid colors inspired by nature.
 
 ## Features
 
-- Responsive CSS Grid layout
-- Different image sizes using grid rows and columns
-- Image labels displayed as overlay boxes
-- Hover effect on images
-- Responsive typography using `clamp()`
-- Accessible alternative text for each image
+- CSS Grid layout based on the Figma design
+- Eleven grid areas with different sizes
+- Grid placement using rows, columns, and grid lines
+- Responsive sizing with `fr`, `vw`, `vh`, `rem`, and `clamp()`
+- Fox images that fill their grid areas with `object-fit: cover`
+- Alternative text for each fox image
 
 ## Technologies Used
 
 - HTML5
-- ## Technologies Used
-
-- HTML5
-- Modern CSS (CSS Grid, responsive units, transitions, and overlays)
-- CSS Grid: display, grid-template-columns, grid-template-rows, grid-column, and grid-row
+- CSS3
+- CSS Grid
+- Responsive units
+- `object-fit: cover`
 
 ## How to Run the Project
 
 1. Download or clone this repository.
 2. Open the project folder in Visual Studio Code.
-3. Open `index.html`.
-4. Start the project with the Live Server extension.
+3. Open the `styles` folder.
+4. Open `index.html`.
+5. Start the project using the Live Server extension.
 
 ## Project Structure
 
 ```text
 grid-project/
 ├── images/
-│   ├── skateboard-deck.jpg
-│   ├── skate-session.jpg
-│   ├── skateboard-wheels.jpg
-│   ├── skateboard-trucks.jpg
-│   └── skate-shoes.jpg
-├── index.html
-├── index.css
+│   ├── fox-1.jpg
+│   ├── fox-2.jpg
+│   ├── fox-3.jpg
+│   ├── fox-4.jpg
+│   └── fox-5.jpg
+├── styles/
+│   ├── index.html
+│   └── index.css
+├── color-palette.fig
 └── README.md
 ```
-
